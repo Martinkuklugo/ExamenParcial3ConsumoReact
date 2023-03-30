@@ -4,6 +4,7 @@ import ListaCartas from './components/ListaCartas';
 import { Cartas } from './components/Cartas';
 
 function App() {
+  
   return (
     <Router>
       <div className="App">

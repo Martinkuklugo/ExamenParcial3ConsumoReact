@@ -1,0 +1,137 @@
+.card-container-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 250px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    max-width: 800;
+  }
+  
+  .card-image-container {
+    padding: 10px;
+    float: left;
+  }
+  
+  .card-info-container {
+    padding: 10px;
+    max-width: 600px;
+  }
+  
+  .card-image {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #FFF;
+    margin-bottom: 10px;
+  }
+  
+  .card-descrip,
+  .card-atak,
+  .card-def,
+  .card-Type,
+  .card-race,
+  .card-level,
+  .card-attribute {
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #FFF;
+  }
+  
+  .card-attribute-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .card-atak,
+  .card-def,
+  .card-Type,
+  .card-race,
+  .card-level,
+  .card-attribute {
+    width: calc(50% - 10px);
+  }
+  
+  .card {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 16px;
+    margin-top: 32px;
+  }
+  .card2 {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 16px;
+    margin-top: 20px;
+  }
+  
+ 
+  .card ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .card ul li {
+    margin-bottom: 8px;
+  }
+  .list-Sets {
+    border-top: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .card-prices {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+    .card2 h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 24px;
+  }
+  .card h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .card2 ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .card2 ul li {
+    margin-bottom: 8px;
+  }
+  
