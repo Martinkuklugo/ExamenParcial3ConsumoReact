@@ -33,6 +33,7 @@ function Cartas() {
           <p className="card-atak" style={{backgroundColor: "black", color: "white"}}>ATK: {carta.atk}</p>
           <p className="card-def" style={{backgroundColor: "black", color: "white"}}>DEF: {carta.def}</p>
           <p className="card-Type" style={{backgroundColor: "black", color: "white"}}>Type: {carta.type}</p>
+          <p className="card-frameType" style={{backgroundColor: "black", color: "white"}}>FramteType: {carta.frameType}</p>
           <p className="card-race" style={{backgroundColor: "black", color: "white"}}>Race: {carta.race}</p>
           <p className="card-level" style={{backgroundColor: "black", color: "white"}}>Level: {carta.level}</p>
           <p className="card-attribute" style={{backgroundColor: "black", color: "white"}}> Attribute: {carta.attribute}</p>
@@ -41,8 +42,8 @@ function Cartas() {
           <h2>Sets</h2>
           <ul className="list-Sets">
             {carta.card_sets?.map((set) => (
-              <li key={set.set_code}>
-                {set.set_name} - {set.set_rarity}
+              <li className="carts-sets" key={set.set_code}>
+                Name :{set.set_name} - Rarity: {set.set_rarity} - Price: {set.set_price}
               </li>
             ))}
           </ul>
@@ -50,11 +51,11 @@ function Cartas() {
           <div className="card2">
             <h2>Prices</h2>
             <ul className="card-prices">
-            {carta.card_prices?.map((price) => (
-              <li key={price.ebay_price}>
-                eBay: ${price.ebay_price} - TCGPlayer: ${price.tcgplayer_price}
-              </li>
-            ))}
+              {carta.card_prices?.map((price) => (
+                <li key={price.ebay_price}>
+                  eBay: ${price.ebay_price} - TCGPlayer: ${price.tcgplayer_price} - Amazon price: ${price.amazon_price}
+                </li>
+              ))}
           </ul>
           </div>
           

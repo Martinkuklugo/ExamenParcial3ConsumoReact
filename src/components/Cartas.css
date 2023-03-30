@@ -1,3 +1,5 @@
+
+
 .card-container-parent {
     display: flex;
     justify-content: center;
@@ -46,13 +48,15 @@
   .card-atak,
   .card-def,
   .card-Type,
+  .card-frameType,
   .card-race,
   .card-level,
   .card-attribute {
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     padding: 5px;
-    margin-bottom: 5px;
+    height: 40px;
+    margin-bottom: 2px;
     background-color: #FFF;
   }
   
@@ -65,11 +69,12 @@
   
   .card-atak,
   .card-def,
+  .card-frameType,
   .card-Type,
   .card-race,
   .card-level,
   .card-attribute {
-    width: calc(50% - 10px);
+    width: calc(50% - 30px);
   }
   
   .card {
@@ -103,6 +108,10 @@
     border-top: 1px solid #ccc;
     margin-bottom: 10px;
     padding-bottom: 10px;
+  }
+
+  .card-sets {
+    border-top: 1px solid #ccc;
   }
   
   .card-prices {
